@@ -94,7 +94,7 @@ def create_data_list(image_dir):
     label_name = os.path.basename(file_name).split('_')[0]
     images.append(input_img)
     labels.append(label_name)
-  return zip(images, labels)
+  return list(zip(images, labels))
 
 
 def main(_):

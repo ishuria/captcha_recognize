@@ -1,0 +1,5 @@
+data/
+captcha_train/
+captcha_eval/
+__pycache__/
+
